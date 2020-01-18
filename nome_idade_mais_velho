@@ -1,0 +1,13 @@
+n1 = input("Nome 1a Pessoa e Idade: ").split(maxsplit=1)
+n2 = input("Nome 2a Pessoa e Idade: ").split(maxsplit=1)
+
+i1 = int(n1[1])
+i2 = int(n2[1])
+
+
+if i1 > i2:
+    print(f"O mais velho é {n1[0]}, com {i1} anos de idade.")
+if i1 < i2:
+    print(f"O mais velho é {n2[0]}, com {i2} anos de idade.")
+if i1 == i2:
+    print(f" {n1[0]} e {n2[0]} tem a mesma idade, {i1} anos.")
